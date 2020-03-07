@@ -1,0 +1,21 @@
+h1, h2, h3, input {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container img {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+.form-vertical {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+input#currentStockPrice, input#maxPrice {
+    color: rgb(165, 150, 150);
+}
